@@ -14,7 +14,7 @@
     <h1>LISTA PELICULAS</h1>
     
         
-            <a class="btn btn-success" href="<?php echo base_url(); ?>peliculas/new">Nueva Pelicula</a>
+            <a class="btn btn-success" href="<?php echo base_url(); ?>peliculas/view">Nueva Pelicula</a>
             <br><br>
             <div class="container-md">
                 <table class="table table-dark table-striped">

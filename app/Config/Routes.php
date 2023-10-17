@@ -7,4 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('peliculas/', 'Peliculas::getIndex');
-$routes->get('peliculas/', 'Peliculas::getIndex');
+$routes->get('peliculas/view', 'Peliculas::getNuevo');

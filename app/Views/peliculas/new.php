@@ -14,7 +14,7 @@
     <h1>NUEVA PELICULA</h1>
     
         
-            <a class="btn btn-success" href="<?php echo base_url(); ?>peliculas/nuevo">Nueva Pelicula</a>
+            
             <br><br>
             <div class="container-md">
                 <table class="table table-dark table-striped">
@@ -31,6 +31,8 @@
        
             </table>
             </div>
+
+            <a class="btn btn-success" href="<?php echo base_url(); ?>peliculas/nuevo">Guardar</a>
            
             
     </div>

@@ -11,5 +11,8 @@ class Peliculas extends BaseController
         return view('peliculas/view');
     }
 
-    
+    public function getNuevo(): string
+    {
+        return view('peliculas/new');
+    }
 }

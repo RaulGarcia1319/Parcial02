@@ -28,6 +28,22 @@
                             <th>Acciones</th>
                         </tr>
                     </thead>
+                    <tbody>
+                        <?php if(isset($pelicula) && !empty($pelicula)): ?>
+                    <?php foreach($pelicula as $data): ?>
+                        <tr>
+                            <td><?php echo $data->id; ?></td>
+                            <td><?php echo $data->name; ?></td>
+                            <td><?php echo $data->nombre; ?></td>
+                            <td><?php echo $data->puntuacion; ?></td>
+                            <td><?php echo $data->namePopu; ?></td>
+                        <td>
+                <!-- Acciones -->
+                        </td>
+                        </tr>
+                    <?php endforeach; ?>
+                    <?php endif; ?>     
+        </tbody>
        
             </table>
             </div>

@@ -1,0 +1,578 @@
+CRITICAL - 2023-10-18 17:08:50 --> Undefined variable $pais
+in APPPATH\Views\peliculas\new.php on line 31.
+ 1 APPPATH\Views\peliculas\new.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(16): view('peliculas/new')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 17:30:45 --> Call to undefined method App\Models\PeliculasModel::BuscarTodos
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Peliculas.php(12): CodeIgniter\Model->__call('BuscarTodos', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 17:31:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#9 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Parcial02\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Parcial02\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 17:31:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `peliculas`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Peliculas.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 17:32:12 --> mysqli_sql_exception: Table 'catalogo_peliculas.peliculas' doesn't exist in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#9 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-18 17:32:12 --> Table 'catalogo_peliculas.peliculas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `peliculas`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Peliculas.php(12): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 17:40:13 --> mysqli_sql_exception: Unknown column 'pelicula.genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 17:40:13 --> Unknown column 'pelicula.genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`genero`, `pelicula`.`popularidad`
+FROM `pelicula`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 17:41:16 --> mysqli_sql_exception: Unknown column 'pelicula.genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 17:41:16 --> Unknown column 'pelicula.genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`genero`, `pelicula`.`popularidad`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 17:41:20 --> mysqli_sql_exception: Unknown column 'pelicula.genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 17:41:20 --> Unknown column 'pelicula.genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`genero`, `pelicula`.`popularidad`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 17:41:47 --> mysqli_sql_exception: Unknown column 'pelicula.genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 17:41:47 --> Unknown column 'pelicula.genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`genero`, `pelicula`.`popularidad`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 17:41:50 --> mysqli_sql_exception: Unknown column 'pelicula.genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 17:41:50 --> Unknown column 'pelicula.genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`genero`, `pelicula`.`popularidad`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 17:44:21 --> mysqli_sql_exception: Unknown column 'pelicula.genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 17:44:21 --> Unknown column 'pelicula.genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`genero`, `pelicula`.`popularidad`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 17:45:22 --> mysqli_sql_exception: Unknown column 'pelicula.genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 17:45:22 --> Unknown column 'pelicula.genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`genero`, `pelicula`.`puntuacion`, `pelicula`.`popularidad`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 17:45:25 --> mysqli_sql_exception: Unknown column 'pelicula.genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 17:45:25 --> Unknown column 'pelicula.genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`genero`, `pelicula`.`puntuacion`, `pelicula`.`popularidad`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 17:46:05 --> Undefined variable $pelicula
+in APPPATH\Views\peliculas\view.php on line 32.
+ 1 APPPATH\Views\peliculas\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelicula', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 17:59:31 --> mysqli_sql_exception: Unknown column 'pelicula.genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 17:59:31 --> Unknown column 'pelicula.genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`genero`, `pelicula`.`puntuacion`, `pelicula`.`popularidad`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 18:04:14 --> mysqli_sql_exception: Unknown column 'pelicula.genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 18:04:14 --> Unknown column 'pelicula.genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`genero`, `pelicula`.`puntuacion`, `pelicula`.`popularidad`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`
+JOIN `popularidad` ON `popularidad`.`id`=`pelicula`.`id_popularidad`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 18:05:28 --> mysqli_sql_exception: Unknown column 'pelicula.popularidad' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 18:05:28 --> Unknown column 'pelicula.popularidad' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`puntuacion`, `pelicula`.`popularidad`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`
+JOIN `popularidad` ON `popularidad`.`id`=`pelicula`.`id_popularidad`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 18:12:38 --> mysqli_sql_exception: Unknown column 'pelicula.genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(13): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 18:12:38 --> Unknown column 'pelicula.genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`genero`, `pelicula`.`puntuacion`, `pelicula`.`popularidad`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`
+JOIN `popularidad` ON `popularidad`.`id`=`pelicula`.`id_popularidad`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(13): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 18:13:10 --> mysqli_sql_exception: Unknown column 'pelicula.genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 18:13:10 --> Unknown column 'pelicula.genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`genero`, `pelicula`.`puntuacion`, `pelicula`.`popularidad`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`
+JOIN `popularidad` ON `popularidad`.`id`=`pelicula`.`id_popularidad`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 18:14:28 --> mysqli_sql_exception: Unknown column 'pelicula.popularidad' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 18:14:28 --> Unknown column 'pelicula.popularidad' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre`, `pelicula`.`id_genero`, `pelicula`.`puntuacion`, `pelicula`.`popularidad`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`
+JOIN `popularidad` ON `popularidad`.`id`=`pelicula`.`id_popularidad`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(12): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:14:37 --> Undefined variable $pelicula
+in APPPATH\Views\peliculas\view.php on line 32.
+ 1 APPPATH\Views\peliculas\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelicula', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:15:26 --> Undefined variable $pelicula
+in APPPATH\Views\peliculas\view.php on line 32.
+ 1 APPPATH\Views\peliculas\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelicula', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:16:55 --> Undefined variable $pelicula
+in APPPATH\Views\peliculas\view.php on line 32.
+ 1 APPPATH\Views\peliculas\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelicula', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:16:56 --> Undefined variable $pelicula
+in APPPATH\Views\peliculas\view.php on line 32.
+ 1 APPPATH\Views\peliculas\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelicula', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:16:56 --> Undefined variable $pelicula
+in APPPATH\Views\peliculas\view.php on line 32.
+ 1 APPPATH\Views\peliculas\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelicula', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:23:08 --> Undefined variable $pelicula
+in APPPATH\Views\peliculas\view.php on line 32.
+ 1 APPPATH\Views\peliculas\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelicula', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:38:30 --> Undefined variable $pelicula
+in APPPATH\Views\peliculas\view.php on line 32.
+ 1 APPPATH\Views\peliculas\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelicula', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:39:07 --> Undefined variable $pelicula
+in APPPATH\Views\peliculas\view.php on line 32.
+ 1 APPPATH\Views\peliculas\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelicula', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 19:28:17 --> Undefined variable $pelicula
+in APPPATH\Views\peliculas\view.php on line 32.
+ 1 APPPATH\Views\peliculas\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelicula', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 19:33:35 --> Undefined variable $pelicula
+in APPPATH\Views\peliculas\view.php on line 32.
+ 1 APPPATH\Views\peliculas\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelicula', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 19:33:44 --> Undefined variable $pelicula
+in APPPATH\Views\peliculas\view.php on line 32.
+ 1 APPPATH\Views\peliculas\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelicula', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 19:33:53 --> Undefined variable $pelicula
+in APPPATH\Views\peliculas\view.php on line 32.
+ 1 APPPATH\Views\peliculas\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelicula', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 19:35:41 --> Undefined property: stdClass::$genero
+in APPPATH\Views\peliculas\view.php on line 37.
+ 1 APPPATH\Views\peliculas\view.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$genero', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/view', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(13): view('peliculas/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

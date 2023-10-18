@@ -16,23 +16,27 @@
         
             
             <br><br>
-            <div class="container-md">
-                <table class="table table-dark table-striped">
-                    <thead>
-                        <tr>
-                            <th>Id</th>
-                            <th>Nombre</th>                
-                            <th>Genero</th>
-                            <th>Puntuacion</th>
-                            <th>Popularidad</th>
-                            <th>Acciones</th>
-                        </tr>
-                    </thead>
-       
-            </table>
-            </div>
+            <form method="post" action="<?php echo base_url(); ?>ciudad/guardar">      
+        <label for="">Nombre:</label>
+        <input type="text" name="nombre">
+        <br><br>     
+        <label for="">Genero:</label>
+        <select name="genero">
+            <option value="">Comedia</option>
+            <option value="">Terror</option>
+        <br><br>     
+        <label for="">Puntuacion:</label>
+        <select name="genero">
+        <br><br>     
+        <label for="">Popularidad:</label>
+        <select name="genero">
+               
+        </select>    
+        <br>   
+        <br>        
+        <input class="btn btn-success" type="submit" value="Guardar">
+    </form>
 
-            <a class="btn btn-success" href="<?php echo base_url(); ?>peliculas/nuevo">Guardar</a>
            
             
     </div>

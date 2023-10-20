@@ -7,4 +7,9 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('peliculas/', 'Peliculas::getIndex');
-$routes->get('peliculas/view', 'Peliculas::getNuevo');
+$routes->get('peliculas/new', 'Peliculas::getNuevo');
+
+$routes->get('genero/', 'Genero::getIndex');
+$routes->get('genero/new', 'Genero::getNuevo');
+
+$routes->post('genero/new', 'Genero::guardar');

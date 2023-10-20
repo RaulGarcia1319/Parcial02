@@ -211,10 +211,8 @@
             <li class="menu-item hidden"><a href="#">Home</a></li>
             <li class="menu-item hidden"><a href="<?php echo base_url(); ?>peliculas">Peliculas</a>
             </li>
-            <li class="menu-item hidden"><a href="https://forum.codeigniter.com/" target="_blank">Community</a></li>
-            <li class="menu-item hidden"><a
-                    href="https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md" target="_blank">Contribute</a>
-            </li>
+            <li class="menu-item hidden"><a href="<?php echo base_url(); ?>genero">Genero</a></li>
+            <li class="menu-item hidden"><a href="<?php echo base_url(); ?>popularidad">Popularidad</a></li>
         </ul>
     </div>
 

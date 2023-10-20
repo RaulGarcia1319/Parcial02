@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\PeliculasModel;
+use App\Models\GeneroModel;
 
 class Peliculas extends BaseController
 {
@@ -15,8 +16,8 @@ class Peliculas extends BaseController
 
     public function getNuevo(): string
     {   
-        $pelicula=model(PeliculasModel::class);
-        $data['pelicula'] = $pelicula->findAll(); 
+        $genero=model(GeneroModel::class);
+        $data['genero'] = $genero->findAll(); 
         $data['error']=0;  
         return view('peliculas/new');
     }

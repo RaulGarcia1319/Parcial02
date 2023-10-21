@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-10-2023 a las 19:31:16
+-- Tiempo de generación: 20-10-2023 a las 23:51:35
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -30,16 +30,23 @@ SET time_zone = "+00:00";
 CREATE TABLE `genero` (
   `id` int(11) NOT NULL,
   `nombre` varchar(255) NOT NULL,
-  `descripcion` varchar(255) NOT NULL,
-  `creado` datetime NOT NULL
+  `descripcion` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `genero`
 --
 
-INSERT INTO `genero` (`id`, `nombre`, `descripcion`, `creado`) VALUES
-(1, 'Accion', 'disparos, violencia', '2023-10-17 01:13:35');
+INSERT INTO `genero` (`id`, `nombre`, `descripcion`) VALUES
+(1, 'Accion', 'disparos, violencia'),
+(2, 'Terror', 'Miedo'),
+(3, 'Sci-Fiction', 'futuro'),
+(4, 'Drama', 'vida cotidiana'),
+(5, 'Suspenso', 'emociones'),
+(6, 'Infantil', 'niños'),
+(7, 'Romance', 'abrazos'),
+(8, 'Gore', 'muerte'),
+(9, 'Religioso', 'Dios');
 
 -- --------------------------------------------------------
 
@@ -74,16 +81,16 @@ INSERT INTO `pelicula` (`id`, `nombre`, `id_genero`, `id_popularidad`, `puntuaci
 
 CREATE TABLE `popularidad` (
   `id` int(11) NOT NULL,
-  `nombre` varchar(250) NOT NULL,
-  `creado` datetime NOT NULL
+  `nombre` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `popularidad`
 --
 
-INSERT INTO `popularidad` (`id`, `nombre`, `creado`) VALUES
-(1, 'Mala', '2023-10-17 01:13:35');
+INSERT INTO `popularidad` (`id`, `nombre`) VALUES
+(1, 'Mala'),
+(2, 'Buena');
 
 --
 -- Índices para tablas volcadas
@@ -117,7 +124,7 @@ ALTER TABLE `popularidad`
 -- AUTO_INCREMENT de la tabla `genero`
 --
 ALTER TABLE `genero`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT de la tabla `pelicula`
@@ -129,7 +136,7 @@ ALTER TABLE `pelicula`
 -- AUTO_INCREMENT de la tabla `popularidad`
 --
 ALTER TABLE `popularidad`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Restricciones para tablas volcadas

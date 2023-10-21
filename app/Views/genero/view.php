@@ -22,8 +22,7 @@
                         <tr>
                             <th>Id</th>
                             <th>Nombre</th>
-                            <th>Descripcion</th> 
-                            <th>Creado</th>               
+                            <th>Descripcion</th>            
                             <th>Acciones</th>
                         </tr>
                     </thead>
@@ -34,7 +33,6 @@
                             <td><?php echo $data->id; ?></td>
                             <td><?php echo $data->nombre; ?></td>
                             <td><?php echo $data->descripcion; ?></td>
-                            <td><?php echo $data->creado; ?></td>
                         <td>
                 <!-- Acciones -->
                         </td>

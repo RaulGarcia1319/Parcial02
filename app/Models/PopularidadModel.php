@@ -4,9 +4,9 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class PeliculasModel extends Model
+class PopularidadModel extends Model
 {
-    protected $table      = 'pelicula';
+    protected $table      = 'popularidad';
     protected $primaryKey = 'id';
 
     protected $useAutoIncrement = true;
@@ -14,7 +14,7 @@ class PeliculasModel extends Model
     protected $returnType   = 'object';
   
 
-    protected $allowedFields = ['nombre', 'id_genero'];
+    protected $allowedFields = ['nombre'];
 
     protected $validationRules    = [
         'nombre' => 'required',        
@@ -27,23 +27,15 @@ class PeliculasModel extends Model
         $db = db_connect();       
         
         $builder = $db->table($this->table);
-        $builder->select('pelicula.id, pelicula.nombre as name, genero.nombre, pelicula.puntuacion, pelicula.anio, popularidad.nombre as namePopu');
-        $builder->join('genero', 'genero.id=pelicula.id_genero');
-        $builder->join('popularidad', 'popularidad.id=pelicula.id_popularidad');
+        $builder->select('popularidad.id, popularidad.nombre as namePopu');
+
         $query = $builder->get();        
         return $query->getResult();
     }
 
-
-    public function insertar($datos)
-    {
-        $Nombres = $this->db->table('pelicula');
-        $Nombres->insert($datos);
-
-        return $this->db->insertID();
+    public function obtenerPopularidad() {
+        $popularidadModel = model(PopularidadModel::class);
+        return $popularidadModel->findAll();
     }
-    
-
-
 
 }

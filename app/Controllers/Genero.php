@@ -19,7 +19,7 @@ class Genero extends BaseController
     }
 
     public function guardar()
-{
+    {
     $genero= model(GeneroModel::class);
 
     $datos = [
@@ -29,7 +29,7 @@ class Genero extends BaseController
 
          $genero->insertar($datos);
          return view('genero/new');
-}
+    }
 
 
 }

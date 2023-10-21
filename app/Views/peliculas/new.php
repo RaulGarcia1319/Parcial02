@@ -13,31 +13,36 @@
 
     <h1>NUEVA PELICULA</h1>
     
-        
+    <a class="btn btn-primary" href="<?php echo base_url(); ?>peliculas/">Regresar</a>
             
             <br><br>
-            <form method="post" action="<?php echo base_url(); ?>peliculas/guardar">      
+            <form method="post" action="<?= current_url() ?>">      
                 <label for="">Nombre:</label>
                 <input type="text" name="nombre">
                 <br><br>     
                 <label for="">Genero:</label>
+                <?php if (isset($genero)): ?>
                 <select name="genero">
                     <?php foreach($genero as $data): ?>
                         <option value="<?php echo $data->id; ?>" ><?php echo $data->nombre; ?> </option>
                     <?php endforeach; ?>
                 </select> 
+                <?php endif; ?>
                 <br><br>
                 <label for="">Puntuacion:</label>
                 <input type="text" name="puntuacion">
                 <br><br>
-
+                <label for="">Año:</label>
+                <input type="text" name="anio">
+                <br><br> 
                 <label for="">Popularidad:</label>
-                <select name="namePopu">
-                    <option value="">Excelente</option>
-                    <option value="">Buena</option>
-                    <option value="">Regular</option>
-                    <option value="">Mala</option>
-                </select>    
+                <?php if (isset($popularidad)): ?>
+                <select name="popularidad">
+                    <?php foreach($popularidad as $data): ?>
+                        <option value="<?php echo $data->id; ?>" ><?php echo $data->nombre; ?> </option>
+                    <?php endforeach; ?>
+                </select>  
+                <?php endif; ?>  
         <br>   
         <br>        
         <input class="btn btn-success" type="submit" value="Guardar">

@@ -220,3 +220,502 @@ in APPPATH\Views\peliculas\new.php on line 25.
  7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
  8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 17:55:46 --> Undefined variable $genero
+in APPPATH\Views\peliculas\new.php on line 25.
+ 1 APPPATH\Views\peliculas\new.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $genero', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(22): view('peliculas/new')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 19:32:00 --> Undefined variable $genero
+in APPPATH\Views\peliculas\new.php on line 25.
+ 1 APPPATH\Views\peliculas\new.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $genero', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(22): view('peliculas/new')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 19:32:25 --> Undefined variable $genero
+in APPPATH\Views\peliculas\new.php on line 25.
+ 1 APPPATH\Views\peliculas\new.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $genero', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(22): view('peliculas/new')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 19:37:01 --> Undefined variable $genero
+in APPPATH\Views\peliculas\new.php on line 25.
+ 1 APPPATH\Views\peliculas\new.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $genero', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(20): view('peliculas/new')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 19:37:04 --> Undefined variable $genero
+in APPPATH\Views\peliculas\new.php on line 25.
+ 1 APPPATH\Views\peliculas\new.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $genero', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(20): view('peliculas/new')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 19:45:20 --> Undefined variable $genero
+in APPPATH\Views\peliculas\new.php on line 25.
+ 1 APPPATH\Views\peliculas\new.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $genero', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(22): view('peliculas/new')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 20:20:07 --> mysqli_sql_exception: Unknown column 'popularidad.id' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `popular...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `popular...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `popular...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `popular...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PopularidadModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Popularidad.php(12): App\Models\PopularidadModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Popularidad->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Popularidad))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 20:20:07 --> Unknown column 'popularidad.id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `popularidad`.`id`, `popularidad`.`nombre` as `nombre`
+FROM `genero`', [], false)
+ 2 APPPATH\Models\PopularidadModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Popularidad.php(12): App\Models\PopularidadModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Popularidad->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Popularidad))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 20:42:51 --> Undefined property: stdClass::$namePopu
+in APPPATH\Views\popularidad\view.php on line 30.
+ 1 APPPATH\Views\popularidad\view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$namePopu', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\popularidad\\view.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\popularidad\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('popularidad/view', [], true)
+ 5 APPPATH\Controllers\Popularidad.php(13): view('popularidad/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Popularidad->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Popularidad))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 21:20:06 --> Undefined variable $popularidad
+in APPPATH\Views\peliculas\new.php on line 36.
+ 1 APPPATH\Views\peliculas\new.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $popularidad', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(23): view('peliculas/new', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 21:20:18 --> Undefined variable $popularidad
+in APPPATH\Views\peliculas\new.php on line 36.
+ 1 APPPATH\Views\peliculas\new.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $popularidad', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(23): view('peliculas/new', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 21:20:19 --> Undefined variable $popularidad
+in APPPATH\Views\peliculas\new.php on line 36.
+ 1 APPPATH\Views\peliculas\new.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $popularidad', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(23): view('peliculas/new', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 21:28:32 --> Undefined variable $popularidad
+in APPPATH\Views\peliculas\new.php on line 36.
+ 1 APPPATH\Views\peliculas\new.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $popularidad', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(23): view('peliculas/new', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 21:28:36 --> Undefined variable $popularidad
+in APPPATH\Views\peliculas\new.php on line 36.
+ 1 APPPATH\Views\peliculas\new.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $popularidad', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(23): view('peliculas/new', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 21:37:27 --> Undefined property: stdClass::$namePopu
+in APPPATH\Views\peliculas\new.php on line 37.
+ 1 APPPATH\Views\peliculas\new.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$namePopu', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(26): view('peliculas/new', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 21:37:49 --> Undefined variable $popularidad
+in APPPATH\Views\peliculas\new.php on line 36.
+ 1 APPPATH\Views\peliculas\new.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $popularidad', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [...], true)
+ 5 APPPATH\Controllers\Peliculas.php(26): view('peliculas/new', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 21:39:04 --> Undefined property: stdClass::$namePopu
+in APPPATH\Views\peliculas\new.php on line 37.
+ 1 APPPATH\Views\peliculas\new.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$namePopu', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(27): view('peliculas/new', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 21:40:25 --> Undefined property: stdClass::$namePopu
+in APPPATH\Views\peliculas\new.php on line 37.
+ 1 APPPATH\Views\peliculas\new.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$namePopu', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(27): view('peliculas/new', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getNuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 22:06:02 --> mysqli_sql_exception: Unknown column 'pelicula.anio popularidad.nombre' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pelicul...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pelicul...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pelicul...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicul...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(14): App\Models\PeliculasModel->BuscarTodos()
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 22:06:02 --> Unknown column 'pelicula.anio popularidad.nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pelicula`.`id`, `pelicula`.`nombre` as `name`, `genero`.`nombre`, `pelicula`.`puntuacion`, `pelicula`.`anio popularidad`.`nombre` as `namePopu`
+FROM `pelicula`
+JOIN `genero` ON `genero`.`id`=`pelicula`.`id_genero`
+JOIN `popularidad` ON `popularidad`.`id`=`pelicula`.`id_popularidad`', [], false)
+ 2 APPPATH\Models\PeliculasModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peliculas.php(14): App\Models\PeliculasModel->BuscarTodos()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->getIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 22:13:34 --> mysqli_sql_exception: Unknown column 'genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar(Array)
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 22:13:34 --> Unknown column 'genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelicula` (`nombre`, `genero`, `puntuacion`, `anio`, `popularidad`) VALUES (:nombre:, :genero:, :puntuacion:, :anio:, :popularidad:)', [...], false)
+ 2 APPPATH\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 22:15:50 --> mysqli_sql_exception: Unknown column 'genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar(Array)
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 22:15:50 --> Unknown column 'genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelicula` (`nombre`, `genero`, `puntuacion`, `anio`, `popularidad`) VALUES (:nombre:, :genero:, :puntuacion:, :anio:, :popularidad:)', [...], false)
+ 2 APPPATH\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 22:31:44 --> mysqli_sql_exception: Unknown column 'genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar(Array)
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 22:31:44 --> Unknown column 'genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelicula` (`nombre`, `genero`, `puntuacion`, `anio`, `popularidad`) VALUES (:nombre:, :genero:, :puntuacion:, :anio:, :popularidad:)', [...], false)
+ 2 APPPATH\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 22:34:02 --> Undefined property: stdClass::$namePopu
+in APPPATH\Views\popularidad\view.php on line 30.
+ 1 APPPATH\Views\popularidad\view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$namePopu', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\popularidad\\view.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\popularidad\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('popularidad/view', [], true)
+ 5 APPPATH\Controllers\Popularidad.php(13): view('popularidad/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Popularidad->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Popularidad))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 22:34:30 --> Undefined property: stdClass::$namePopu
+in APPPATH\Views\popularidad\view.php on line 30.
+ 1 APPPATH\Views\popularidad\view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$namePopu', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\popularidad\\view.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\popularidad\\view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('popularidad/view', [], true)
+ 5 APPPATH\Controllers\Popularidad.php(13): view('popularidad/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Popularidad->getIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Popularidad))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 22:36:26 --> mysqli_sql_exception: Unknown column 'genero' in 'field list' in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar(Array)
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 22:36:26 --> Unknown column 'genero' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelicula` (`nombre`, `genero`, `puntuacion`, `anio`, `popularidad`) VALUES (:nombre:, :genero:, :puntuacion:, :anio:, :popularidad:)', [...], false)
+ 2 APPPATH\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 22:42:00 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar(Array)
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 22:42:00 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelicula` (`nombre`, `id_genero`, `puntuacion`, `anio`, `id_popularidad`) VALUES (:nombre:, :id_genero:, :puntuacion:, :anio:, :id_popularidad:)', [...], false)
+ 2 APPPATH\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 22:42:20 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar(Array)
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 22:42:20 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelicula` (`nombre`, `id_genero`, `puntuacion`, `anio`, `id_popularidad`) VALUES (:nombre:, :id_genero:, :puntuacion:, :anio:, :id_popularidad:)', [...], false)
+ 2 APPPATH\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 22:45:18 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`catalogo_peliculas`.`pelicula`, CONSTRAINT `FK_pelicula_11` FOREIGN KEY (`id_genero`) REFERENCES `genero` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar(Array)
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 22:45:18 --> Cannot add or update a child row: a foreign key constraint fails (`catalogo_peliculas`.`pelicula`, CONSTRAINT `FK_pelicula_11` FOREIGN KEY (`id_genero`) REFERENCES `genero` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelicula` (`nombre`, `id_genero`, `puntuacion`, `anio`, `id_popularidad`) VALUES (:nombre:, :id_genero:, :puntuacion:, :anio:, :id_popularidad:)', [...], false)
+ 2 APPPATH\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 22:47:37 --> mysqli_sql_exception: Column 'id_genero' cannot be null in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar(Array)
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 22:47:37 --> Column 'id_genero' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelicula` (`nombre`, `id_genero`, `puntuacion`, `anio`, `id_popularidad`) VALUES (:nombre:, :id_genero:, :puntuacion:, :anio:, :id_popularidad:)', [...], false)
+ 2 APPPATH\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 22:47:56 --> mysqli_sql_exception: Column 'id_genero' cannot be null in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar(Array)
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 22:47:56 --> Column 'id_genero' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelicula` (`nombre`, `id_genero`, `puntuacion`, `anio`, `id_popularidad`) VALUES (:nombre:, :id_genero:, :puntuacion:, :anio:, :id_popularidad:)', [...], false)
+ 2 APPPATH\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 22:48:50 --> mysqli_sql_exception: Column 'id_popularidad' cannot be null in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar(Array)
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 22:48:50 --> Column 'id_popularidad' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelicula` (`nombre`, `id_genero`, `puntuacion`, `anio`, `id_popularidad`) VALUES (:nombre:, :id_genero:, :puntuacion:, :anio:, :id_popularidad:)', [...], false)
+ 2 APPPATH\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 22:49:02 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`catalogo_peliculas`.`pelicula`, CONSTRAINT `FK_pelicula_11` FOREIGN KEY (`id_genero`) REFERENCES `genero` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Parcial02\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\Parcial02\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\Parcial02\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\Parcial02\app\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Parcial02\app\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar(Array)
+#6 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+#7 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+#8 C:\xampp\htdocs\Parcial02\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Parcial02\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 22:49:02 --> Cannot add or update a child row: a foreign key constraint fails (`catalogo_peliculas`.`pelicula`, CONSTRAINT `FK_pelicula_11` FOREIGN KEY (`id_genero`) REFERENCES `genero` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelicula` (`nombre`, `id_genero`, `puntuacion`, `anio`, `id_popularidad`) VALUES (:nombre:, :id_genero:, :puntuacion:, :anio:, :id_popularidad:)', [...], false)
+ 2 APPPATH\Models\PeliculasModel.php(41): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Peliculas.php(42): App\Models\PeliculasModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 22:54:26 --> Undefined variable $genero
+in APPPATH\Views\peliculas\new.php on line 25.
+ 1 APPPATH\Views\peliculas\new.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $genero', 'C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Parcial02\\app\\Views\\peliculas\\new.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peliculas/new', [], true)
+ 5 APPPATH\Controllers\Peliculas.php(43): view('peliculas/new')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peliculas->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peliculas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

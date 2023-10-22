@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 20-10-2023 a las 23:51:35
+-- Tiempo de generación: 22-10-2023 a las 08:34:23
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -71,7 +71,8 @@ CREATE TABLE `pelicula` (
 --
 
 INSERT INTO `pelicula` (`id`, `nombre`, `id_genero`, `id_popularidad`, `puntuacion`, `anio`, `disponible`, `creado`, `modificado`) VALUES
-(1, 'Superpoli en Las Vegas', 1, 1, 35, 2015, 1, '2023-10-17 01:13:35', '2023-10-17 01:13:35');
+(1, 'John Wick 4', 1, 4, 100, 2023, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(2, 'Angry Birds', 6, 5, 90, 2021, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -90,7 +91,10 @@ CREATE TABLE `popularidad` (
 
 INSERT INTO `popularidad` (`id`, `nombre`) VALUES
 (1, 'Mala'),
-(2, 'Buena');
+(2, 'Buena'),
+(3, 'Regular'),
+(4, 'Excelente'),
+(5, 'Muy Buena');
 
 --
 -- Índices para tablas volcadas
@@ -130,13 +134,13 @@ ALTER TABLE `genero`
 -- AUTO_INCREMENT de la tabla `pelicula`
 --
 ALTER TABLE `pelicula`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `popularidad`
 --
 ALTER TABLE `popularidad`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Restricciones para tablas volcadas

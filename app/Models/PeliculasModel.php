@@ -14,7 +14,7 @@ class PeliculasModel extends Model
     protected $returnType   = 'object';
   
 
-    protected $allowedFields = ['nombre', 'id_genero'];
+    protected $allowedFields = ['nombre', 'id_genero', 'puntuacion', 'anio', 'id_popularidad'];
 
     protected $validationRules    = [
         'nombre' => 'required',        

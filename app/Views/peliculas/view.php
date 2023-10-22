@@ -40,7 +40,8 @@
                             <td><?php echo $data->anio; ?></td>
                             <td><?php echo $data->namePopu; ?></td>
                         <td>
-                <!-- Acciones -->
+                        <a class="btn btn-warning" href="<?php echo base_url('editar/' . $data->id);?>">Editar</a>
+                        <a class="btn btn-danger" href="<?php echo base_url('eliminar/' . $data->id); ?>">Eliminar</a>
                         </td>
                         </tr>
                     <?php endforeach; ?>

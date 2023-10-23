@@ -28,7 +28,17 @@ class Genero extends BaseController
      ];
 
          $genero->insertar($datos);
-         return view('genero/new');
+         return redirect()->to(base_url('genero/'));
+    }
+
+    public function eliminar($id=null)
+    {
+        //print_r($id);
+        $genero= model(GeneroModel::class);
+        $genero->delete($id);
+
+        return redirect()->to(base_url('genero/'));
+       // return view('peliculas/eliminar');
     }
 
 

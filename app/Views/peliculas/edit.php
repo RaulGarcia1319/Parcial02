@@ -16,15 +16,17 @@
     <a class="btn btn-primary" href="<?php echo base_url(); ?>peliculas/">Regresar</a>
             
             <br><br>
+            <div class="row">
+            <div class="col-4">
             <form method="post" action="<?= base_url('actualizar'); ?>">
 
             <input type="number" hidden name="id" value="<?= $pelicula->id?>">      
                 <label for="">Nombre:</label>
-                <input type="text" name="nombre" value="<?= $pelicula->nombre?>">
-                <br><br>  
+                <input class="form-control" type="text" name="nombre" value="<?= $pelicula->nombre?>">
+
 
                 <label for="genero">Genero:</label>
-                    <select name="genero">
+                    <select class="form-select" name="genero">
                     <?php foreach ($genero as $data): ?>
                     <option value="<?= $data->id ?>" <?php if ($data->id == $genero_actual) echo 'selected' ?>>
                     <?= $data->nombre ?>
@@ -32,16 +34,16 @@
                     <?php endforeach; ?>
                     </select> 
 
-                <br><br>
+
                 <label for="">Puntuacion:</label>
-                <input type="text" name="puntuacion" value="<?= $pelicula->puntuacion?>">
-                <br><br>
+                <input class="form-control" type="text" name="puntuacion" value="<?= $pelicula->puntuacion?>">
+
                 <label for="">Año:</label>
-                <input type="text" name="anio" value="<?= $pelicula->anio?>">
-                <br><br> 
+                <input class="form-control" type="text" name="anio" value="<?= $pelicula->anio?>">
+
                 
                 <label for="popularidad">Popularidad:</label>
-                <select name="popularidad">
+                <select class="form-select" name="popularidad">
                     <?php foreach ($popularidad as $data): ?>
                     <option value="<?= $data->id ?>" <?php if ($data->id == $popularidad_actual) echo 'selected' ?>>
                     <?= $data->nombre ?>
@@ -52,6 +54,8 @@
                 <br>        
                     <input class="btn btn-success" type="submit" value="Actualizar">
     </form>
+    </div>
+    </div>
 
            
             

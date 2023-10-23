@@ -22,3 +22,5 @@ $routes->get('/editar/(:num)', 'Peliculas::editar/$1');
 
 $routes->post('/actualizar', 'Peliculas::actualizar');
 
+$routes->get('/delete/(:num)', 'Genero::eliminar/$1');
+

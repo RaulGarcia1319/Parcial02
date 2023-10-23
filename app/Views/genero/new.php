@@ -18,12 +18,15 @@
         
             
             <br><br>
+            <div class="col-4">
             <form method="post" action="<?= current_url() ?>">      
                 <label for="">Nombre:</label>
-                <input type="text" name="nombre">
-                <br><br>     
+                <input 
+               class="form-control" type="text" name="nombre">
+ 
                 <label for="">Descripcion:</label>
-                <input type="text" name="descripcion"> 
+                <input class="form-control type="text" name="descripcion"> 
+            </div>
         <br>   
         <br>        
         <input class="btn btn-success" type="submit" value="Guardar">

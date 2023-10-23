@@ -16,28 +16,30 @@
     <a class="btn btn-primary" href="<?php echo base_url(); ?>peliculas/">Regresar</a>
             
             <br><br>
+            <div class="row">
+            <div class="col-4">
             <form method="post" action="<?= current_url() ?>">      
                 <label for="">Nombre:</label>
-                <input type="text" name="nombre">
-                <br><br>     
+                <input class="form-control" type="text" name="nombre">
+  
                 <label for="">Genero:</label>
                 <?php if (isset($genero)): ?>
-                <select name="genero">
+                <select class="form-select" name="genero">
                     <?php foreach($genero as $data): ?>
                         <option value="<?php echo $data->id; ?>" ><?php echo $data->nombre; ?> </option>
                     <?php endforeach; ?>
                 </select> 
                 <?php endif; ?>
-                <br><br>
+
                 <label for="">Puntuacion:</label>
-                <input type="text" name="puntuacion">
-                <br><br>
+                <input class="form-control" type="text" name="puntuacion">
+
                 <label for="">Año:</label>
-                <input type="text" name="anio">
-                <br><br> 
+                <input class="form-control" type="text" name="anio">
+
                 <label for="">Popularidad:</label>
                 <?php if (isset($popularidad)): ?>
-                <select name="popularidad">
+                <select class="form-select" name="popularidad">
                     <?php foreach($popularidad as $data): ?>
                         <option value="<?php echo $data->id; ?>" ><?php echo $data->nombre; ?> </option>
                     <?php endforeach; ?>
@@ -47,6 +49,8 @@
         <br>        
         <input class="btn btn-success" type="submit" value="Guardar">
     </form>
+            </div>
+            </div>
 
            
             
